@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');
+
+:root {
+    --primary-color: #F2C94C;
+}
+
+body {
+    margin: 0;
+     font-family: 'PT Sans', sans-serif;
+}
+
+textarea {
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+   display: block;
+    margin: 5rem auto;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+}
+
+
+.nav-bar {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: var(--primary-color);
+    
+}
+
+.button {
+    border-radius: 7px;
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.footer {
+
+text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+}  
+
+.footer .footer-header {
+font-weight: bold;
+}
+
+.footer .footer-details { 
+    padding-top: 10px;
+    width: 50%;
+  margin: auto;
+}
